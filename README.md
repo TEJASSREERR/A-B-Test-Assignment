@@ -27,6 +27,15 @@ After injecting the script, open DevTools Console and run:
 // Show modal manually
 FridaysUpsell.show('semaglutide', 'monthly')
 
+Tested On
+Chrome DevTools Console
+Local test page simulating Join Fridays pricing cards
+Verified: Upgrade CTA, Decline option, X button, Escape key, click-outside close
+Tech Stack
+Vanilla JavaScript (ES6+)
+No dependencies
+No build step required
+
 // Scan for detected plans
 FridaysUpsell.scan()
 
